@@ -1,4 +1,4 @@
-calories = open('Numbers', 'r')
+number_file = open('Numbers', 'r')
 lst = []
 i = 0
 first = 0
@@ -7,7 +7,7 @@ total = 0
 numbers = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
 dict = {"one" : 1, "two" : 2, "three" : 3, "four": 4, "five" : 5, "six" : 6, "seven" : 7, "eight" : 8, "nine" : 9}
 last_num = {"last_num" : 0}
-for line in calories.readlines():
+for line in number_file.readlines():
     word = line.strip()
     lst.append(word)
 while i < len(lst):

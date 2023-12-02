@@ -1,10 +1,10 @@
-calories = open('Numbers', 'r')
+number_file = open('Numbers', 'r')
 lst = []
 i = 0
 first = 0
 second = 0
 total = 0
-for line in calories.readlines():
+for line in number_file.readlines():
     word = line.strip()
     lst.append(word)
 
