@@ -1,6 +1,5 @@
 sensor_values = open('Sensor Values', 'r')
 lst = []
-total = 1
 for line in sensor_values.readlines():
     word = line.strip()
     temp_list = []
